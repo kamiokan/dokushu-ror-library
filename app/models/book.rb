@@ -1,4 +1,7 @@
 class Book < ApplicationRecord
+  before_save MessageOut
+  before_validation MessageOut
+
   after_find :find_message
   after_initialize :initialize_message
   validates :title, presence: true
