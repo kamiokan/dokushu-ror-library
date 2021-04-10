@@ -28,3 +28,7 @@ Book.create(title: "パーフェクト Ruby on Rails 【増補改訂版", descri
 Book.create(title: "ゼロからわかる　Ruby 超入門 はじめてのIT技術講座", description: "本書は，プログラミングが初めての方へ向けた，プログラミング言語Rubyの入門書です。本業のRubyプログラマーを続けながら，一橋大学の社会学部でプログラミングを初めて学ぶ学生へ向けて講義をした経験をもとに，図を多く使って分かりやすく説明しました。")
 Book.create(title: "プロを目指す人のためのRuby入門 言語仕様からテスト駆動開発・デバッグ技法まで", description: "Rubyの文法をサンプルコードで学び，例題でプログラミングの流れを体験できる解説書です。ほかのプログラミング言語で開発経験のある人が，Rubyを学ぶ際に効率的に学べる内容を詰め込みました。")
 Book.create(title: "Ruby on Rails 6 実践ガイド", description: "本書では、1つの企業向け顧客管理システムを作る過程で、RailsによるWebアプリケーション開発の基礎知識とさまざまなノウハウを習得していきます。各章末には演習問題が設けられているので、理解度を確かめながら確実に読み進められます。")
+
+# Product
+Product.create(name: "やかん", price: 980)
+Product.create(name: "ダイヤの指輪", price: 1000000)
